@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+*{
+    background-color: #000000;
+    color: #ff9797;
+    font-family: 'Lexend', sans-serif;
+
+}
+::placeholder{
+  color: #000000;
+}
+.App{
+    background-color: transparent;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f97070;
+  padding: 90px;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  cursor: default;
+  font-size: 70px;
+  font-weight: 800px;
+  transform: scale(1.2);
+  text-shadow: 0 0 50px #ff8989;
+}
+
+.todo-list {
+  margin-top: 40px;
+}
+
+.add-todo {
+
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  
+  
+}
+
+.add-todo input {
+
+  padding: 15px;
+  border: 1px solid #ff8989;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  background-color: #ff8989;
+  color: #000000;
+  text-align: center;
+  cursor: default;
+  
+}
+.add-todo:hover::before input{
+
+  transform: scale(1.1);
+  box-shadow: 0 0 200px #ff8989;
+  
+}
+.add-todo:hover input{
+
+  box-shadow: 0 0 50px #ff8989;
+  text-shadow: 0 0 100px #ff8989;
+}
+.add-todo > input:focus{
+  outline: none;
+}
+
+.add-todo button {
+  background-color: #ff8989;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: default;
+  align-self: center;
+  padding: 15px;
+  width: 20%;
+  margin-top: 10px;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px #ff8989;
+  
+ 
+}
+
+.todo-item {
+  border: 2px solid #ff8989;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 40px;
+  justify-content:space-between;
+  align-items: center;
+  box-shadow: 0 0 9px #ff8989;
+
+}
+.todo-item .checkboxz{
+  display: flex;
+  gap: 10px;
+
+}
+.todo-item button{
+  border: 2px solid #ff8989;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 10px;
+
+}
+.add-todo > button:focus{
+  outline: none;
+}
+
+
+
+/* .btn {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+
+  &:after,&:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+  }
+
+  &:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+  }
+
+  &:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+  }
+
+  &:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+
+    &:before,
+    &:after {
+
+      width: 100%;
+      height: 100%;
+      border-color:white;
+    }
+  }
+}
+
+.data-container {
+  background: #ffebee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
